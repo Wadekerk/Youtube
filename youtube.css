@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  .nav {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    background: #000;
+    /* background-color: aqua; */
+  }
+  .nav1 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+  }
+  
+  .menubutton {
+    font-weight: 500;
+    font-size: 1.5vw;
+    gap: 10px;
+    padding-left: 1.5vw;
+    color: white;
+  }
+  .logo img {
+   
+    width: 50%;
+    padding-top: 0.5vw;
+  }
+  .nav2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 30px;
+
+  }
+  .search {
+    height: 80%;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    border-radius: 30px;
+    border: 1px solid #ffffffe0;
+  }
+  
+  .search input {
+    height: 90%;
+    width: 100%;
+    padding-left: 1vw;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    background-color: #121212;
+  }
+  .search i {
+    color: white;
+    height: 100%;
+    width: 8%;
+    padding: 0.4vw;
+    font-size: 1.7vw;
+    border-radius: 0 30px 30px 0;
+    background-color: #717171;
+  }
+   .mic{
+    height:50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    background-color:#2f2828;
+  }
+  .mic i{
+    color: white;
+    font-size:1.5vw;
+  }
+  
+  .nav3 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 2vw;
+
+  }
+  .nav3 img {
+    height: 50%;
+    border-radius: 50px;
+  }
+  .nav3 i {
+    /* height: 100%; */
+    font-size: 1.6vw;
+    color: white;
+  }
+  .mic :hover{
+    background-color: #363232;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav3 :hover{
+    height: 40px;
+    width: 40px;
+    background-color:#717171;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: 2s; */
+    /* position: fixed; */
+  }
+  
+  .main {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    position: fixed;
+    /* background-color: blueviolet; */
+  }
+  
+  .side-nav {
+    height:100%;
+    width: 18%;
+    padding-top: 1.5vw;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    background: #000;
+    /* background-color: red; */
+  }
+  
+  /* .side-nav::-webkit-scrollbar{
+    display: none;
+  } */
+  .side-button1 {
+    height: 80%;
+    width: 80%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    gap: 10px;
+    background-color: #717171;
+  }
+ 
+  .side-button {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    gap: 10px;
+    border-radius: 5px;
+    /* background-color: #717171; */
+  }
+  hr{
+    height: 1px;
+    width: 100%;
+  }
+  .side-button p {
+    color: white;
+    font-size: 1.2vw;
+  }
+  
+  .side-button i {
+    color: white;
+    font-size: 1.2vw;
+  }
+  
+  .side-button2 {
+    display: flex;
+  }
+  .about{
+    gap: 20px;
+  }
+  .about p{
+         color: white;
+         gap: 20px;
+  }
+  .about h4{
+    color: white;
+    margin-top: 20px;
+  }
+  .pra{
+    margin-top: 20px;
+  }
+  .side-button:hover {
+    background-color:#717171;
+    height: 70px;
+  }
+  .main{
+    display: flex;
+    /* position: fixed; */
+  }
+  .main-contant {
+    height: 100%;
+    width: 82%;
+    overflow: scroll;
+    background-color: hotpink;
+    /* position: fixed; */ 
+  }
+  .content{
+    width: 1244px;
+    position: fixed;
+    overflow: scroll;
+   
+    /* overflow: auto;/ */
+
+  }
+  .content::-webkit-scrollbar{
+    display: none;
+  }
+  .interstbar::-webkit-scrollbar{
+    display: none;
+  }
+  .interstbar{
+    display: flex;
+    white-space: nowrap;
+    height:70px;
+    width:fit-content;
+    white-space: nowrap;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    padding:1vw;
+    color: white;
+    gap: 20px;
+    overflow: scroll;
+  }
+
+  
+  .bar{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:rgb(241, 44, 44); */
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .5s;
+    
+    background-color: #717171;
+  }
+  .bar p{
+    color: black;
+  }
+  .interstbar i{
+    color: white;
+  }
+  .interstbar :hover{
+    background-color: white ;
+  }
+  .playlist{
+    margin-top: 50px;
+    padding-top: 25px;
+    height:fit-content;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .playlist::-webkit-scrollbar{
+    display: none;
+  }
+  .video{
+    height: 250px;
+    width: 350px;
+    background-color:wheat;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; */
+    overflow: auto;
+   
+  }
+ 
+  .side-button img{
+    height: 100%;
+    width:20%;
+  }
+  .name{
+    height:70px;
+    width: 100%;
+    background-color:black;
+    border-radius:0px;
+    display: flex;
+    gap: 10px;
+  }
+  .video img{
+   height: 180px;
+   width: 100%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+  }
+  .k img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+  } 
+  .con p{
+    margin-bottom: 10px;
+  }
+  .kk p{
+   font-size: 2vw;
+  }

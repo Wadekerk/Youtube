@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .content{
+    overflow: auto;
+  }
+  .interstbar{
+    display: flex;
+    height:50px;
+    width: 100%;
+    width:fit-content;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding:1vw;
+    color: white;
+    gap: 120px;
+    overflow: scroll;
+  }
